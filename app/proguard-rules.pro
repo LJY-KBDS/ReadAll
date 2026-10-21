@@ -1,0 +1,5 @@
+-keep class com.tom_roush.** { *; }
+-dontwarn com.tom_roush.**
+-keep class kotlinx.serialization.** { *; }
+-keepattributes *Annotation*, InnerClasses
+-dontwarn org.bouncycastle.**
